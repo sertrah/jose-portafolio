@@ -1,6 +1,7 @@
 import Image from "next/image";
 import HeroBanner from "./components/HeroBanner";
 import AboutMeSection from "./components/AboutMeSection";
+import ReviewsSection from "./components/ReviewSection";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <main className="flex flex-col">
         <HeroBanner />
         <AboutMeSection />
+        <ReviewsSection />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a

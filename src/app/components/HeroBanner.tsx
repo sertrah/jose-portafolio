@@ -22,8 +22,6 @@ const HeroBanner = () => {
         <div className="w-10 h-10 bg-gray-300" />
       </div>
 
-      {/* Botón de contacto */}
-
       <Button appearance={ButtonAppearance.OUTLINED}> Contact Me </Button>
     </section>
   );

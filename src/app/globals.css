@@ -12,6 +12,8 @@
   --color-foreground: var(--foreground);
   --color-green-1: #66ccbe;
   --color-green-2: #98e1d7;
+  --color-black-1: #0a0e15;
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -31,6 +33,11 @@ body {
 
 h1 {
   font-size: 2.2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8rem;
   font-weight: bold;
 }
 
