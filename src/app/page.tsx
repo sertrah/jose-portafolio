@@ -2,6 +2,9 @@ import Image from "next/image";
 import HeroBanner from "./components/HeroBanner";
 import AboutMeSection from "./components/AboutMeSection";
 import ReviewsSection from "./components/ReviewSection";
+import SkillSection from "./components/SkillSection";
+import FAQSection from "./components/FAQSection";
+import ProjectListSection from "./components/ProjectListSections";
 
 export default function Home() {
   return (
@@ -10,6 +13,9 @@ export default function Home() {
         <HeroBanner />
         <AboutMeSection />
         <ReviewsSection />
+        <SkillSection />
+        <FAQSection />
+        <ProjectListSection />
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
         <a
